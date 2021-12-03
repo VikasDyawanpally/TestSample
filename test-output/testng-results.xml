@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28258" started-at="2021-12-01T20:05:33 IST" finished-at="2021-12-01T20:06:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28258" started-at="2021-12-01T20:05:33 IST" finished-at="2021-12-01T20:06:01 IST">
+      <class name="eu.restcountries.CountrySearchTest">
+        <test-method status="PASS" signature="testWithEmptyCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithEmptyCountryCode" duration-ms="3962" started-at="2021-12-01T20:05:33 IST" finished-at="2021-12-01T20:05:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithEmptyCountryCode -->
+        <test-method status="PASS" signature="testWithEmptyCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithEmptyCountryName" duration-ms="1384" started-at="2021-12-01T20:05:37 IST" finished-at="2021-12-01T20:05:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithEmptyCountryName -->
+        <test-method status="PASS" signature="testWithInValidCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithInValidCountryCode" duration-ms="1533" started-at="2021-12-01T20:05:38 IST" finished-at="2021-12-01T20:05:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInValidCountryCode -->
+        <test-method status="PASS" signature="testWithInValidCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithInValidCountryName" duration-ms="1355" started-at="2021-12-01T20:05:40 IST" finished-at="2021-12-01T20:05:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInValidCountryName -->
+        <test-method status="PASS" signature="testWithInValidDataTypeCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithInValidDataTypeCountryCode" duration-ms="1356" started-at="2021-12-01T20:05:41 IST" finished-at="2021-12-01T20:05:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInValidDataTypeCountryCode -->
+        <test-method status="PASS" signature="testWithInValidDataTypeCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithInValidDataTypeCountryName" duration-ms="1383" started-at="2021-12-01T20:05:43 IST" finished-at="2021-12-01T20:05:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithInValidDataTypeCountryName -->
+        <test-method status="PASS" signature="testWithSQLInjectionCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithSQLInjectionCountryCode" duration-ms="1409" started-at="2021-12-01T20:05:44 IST" finished-at="2021-12-01T20:05:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithSQLInjectionCountryCode -->
+        <test-method status="PASS" signature="testWithSQLInjectionCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithSQLInjectionCountryName" duration-ms="1692" started-at="2021-12-01T20:05:45 IST" finished-at="2021-12-01T20:05:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithSQLInjectionCountryName -->
+        <test-method status="PASS" signature="testWithSpecialCharactersCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithSpecialCharactersCountryCode" duration-ms="1355" started-at="2021-12-01T20:05:47 IST" finished-at="2021-12-01T20:05:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithSpecialCharactersCountryCode -->
+        <test-method status="PASS" signature="testWithSpecialCharactersCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithSpecialCharactersCountryName" duration-ms="1518" started-at="2021-12-01T20:05:49 IST" finished-at="2021-12-01T20:05:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithSpecialCharactersCountryName -->
+        <test-method status="PASS" signature="testWithValidAlpha2CountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidAlpha2CountryCode" duration-ms="1635" started-at="2021-12-01T20:05:50 IST" finished-at="2021-12-01T20:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidAlpha2CountryCode -->
+        <test-method status="PASS" signature="testWithValidCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidCountryName" duration-ms="1895" started-at="2021-12-01T20:05:52 IST" finished-at="2021-12-01T20:05:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidCountryName -->
+        <test-method status="PASS" signature="testWithValidPartialCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidPartialCountryCode" duration-ms="1393" started-at="2021-12-01T20:05:54 IST" finished-at="2021-12-01T20:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidPartialCountryCode -->
+        <test-method status="PASS" signature="testWithValidPartialCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidPartialCountryName" duration-ms="1573" started-at="2021-12-01T20:05:55 IST" finished-at="2021-12-01T20:05:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidPartialCountryName -->
+        <test-method status="PASS" signature="testWithValidSmallCaseCharactersCountryCode()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidSmallCaseCharactersCountryCode" duration-ms="1357" started-at="2021-12-01T20:05:57 IST" finished-at="2021-12-01T20:05:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidSmallCaseCharactersCountryCode -->
+        <test-method status="PASS" signature="testWithValidSmallCaseCharactersCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithValidSmallCaseCharactersCountryName" duration-ms="1396" started-at="2021-12-01T20:05:58 IST" finished-at="2021-12-01T20:05:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidSmallCaseCharactersCountryName -->
+        <test-method status="PASS" signature="testWithoutSpacesInCountryName()[pri:0, instance:eu.restcountries.CountrySearchTest@8806ef]" name="testWithoutSpacesInCountryName" duration-ms="1964" started-at="2021-12-01T20:05:59 IST" finished-at="2021-12-01T20:06:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithoutSpacesInCountryName -->
+      </class> <!-- eu.restcountries.CountrySearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
